@@ -18,10 +18,12 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #f70000da;
 }
 
 /* Section Styles */
+
+
 
 .main-nav {
   width: 100%;
@@ -57,11 +59,14 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/gameradad.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
+
+
 header {
   line-height: 1.5;
 }
@@ -74,7 +79,9 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 .tag {
   background-color: #efefef;
@@ -141,6 +148,10 @@ footer ul li {
   display: inline-block;
 }
 
+.top {
+  color: black;
+}
+
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -165,6 +176,12 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.experience {
+  background: none;
+  color: black;
+  
 }
 
 /* Styles for larger screens */
